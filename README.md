@@ -13,9 +13,17 @@ Use natural language without copying between CoPilot or ChatGPT
 
 ## Quick Start
 
+Autocomplete.sh works with both **Bash** and **Zsh**. The install script
+automatically detects your shell and downloads the appropriate
+`autocomplete.sh` or `autocomplete.zsh` file.
+
 ```bash
 wget -qO- https://autocomplete.sh/install.sh | bash
 ```
+
+
+For more details, see the
+[install script](docs/install.sh).
 
 **Note**: Set your `OPENAI_API_KEY` environment variable so the default OpenAI model can run right after installation.
 
@@ -24,6 +32,7 @@ Autocomplete.sh requires `jq` for JSON parsing. Install it with your package man
 - **Ubuntu/Debian:** `sudo apt-get install jq`
 - **CentOS/RHEL:** `sudo yum install jq`
 - **macOS (Homebrew):** `brew install jq`
+
 
 ## Features
 
