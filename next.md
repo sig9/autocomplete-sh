@@ -1,6 +1,6 @@
 # Next Steps for Multi-Model Support via Litellm
 
-The repository currently supports OpenAI, Groq, Anthropic, and Ollama models. To enable additional models through the litellm endpoint at `https://llm.co.sig9.dev`, consider the following changes:
+The repository currently supports OpenAI, Groq, Anthropic, and Ollama models. To enable additional models through a Litellm-compatible endpoint, consider the following changes:
 
 1. **Add a new provider** `litellm` in both `autocomplete.sh` and `autocomplete.zsh`.
 2. **Fetch models dynamically** by querying the litellm endpoint (e.g. `GET $ACSH_ENDPOINT/models`) at runtime instead of hard-coding the list.
