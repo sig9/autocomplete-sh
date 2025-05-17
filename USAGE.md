@@ -8,13 +8,15 @@
 
    *Check that the help text is clear and lists all available commands.*
 
-2. **Install the Script**  
+2. **Install the Script**
 
    ```bash
    autocomplete install
-   ```  
+   ```
 
    *This adds the necessary lines to your ~/.bashrc and sets up the environment.*
+   Make sure your `OPENAI_API_KEY` is exported as described in the
+   [Quick Start note](README.md#quick-start).
 
 3. **Reload Your Shell**  
 

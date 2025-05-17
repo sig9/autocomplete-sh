@@ -17,6 +17,9 @@ Use natural language without copying between CoPilot or ChatGPT
 wget -qO- https://autocomplete.sh/install.sh | bash
 ```
 
+> **Note**: Set your `OPENAI_API_KEY` environment variable so the default OpenAI
+> model can run right after installation.
+
 ## Features
 
 - **Context-Aware**: Considers terminal state, recent commands, and `--help` information
