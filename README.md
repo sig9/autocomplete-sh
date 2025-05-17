@@ -17,8 +17,13 @@ Use natural language without copying between CoPilot or ChatGPT
 wget -qO- https://autocomplete.sh/install.sh | bash
 ```
 
-> **Note**: Set your `OPENAI_API_KEY` environment variable so the default OpenAI
-> model can run right after installation.
+**Note**: Set your `OPENAI_API_KEY` environment variable so the default OpenAI model can run right after installation.
+
+Autocomplete.sh requires `jq` for JSON parsing. Install it with your package manager if it's not already present:
+
+- **Ubuntu/Debian:** `sudo apt-get install jq`
+- **CentOS/RHEL:** `sudo yum install jq`
+- **macOS (Homebrew):** `brew install jq`
 
 ## Features
 
@@ -98,6 +103,12 @@ git clone git@github.com:closedloop-technologies/autocomplete-sh.git
 ln -s $PWD/autocomplete.sh $HOME/.local/bin/autocomplete
 . autocomplete.sh install
 ```
+
+This script requires `jq`:
+
+- **Ubuntu/Debian:** `sudo apt-get install jq`
+- **CentOS/RHEL:** `sudo yum install jq`
+- **macOS (Homebrew):** `brew install jq`
 
 We can also install the development version from the local file:
 
