@@ -13,9 +13,16 @@ Use natural language without copying between CoPilot or ChatGPT
 
 ## Quick Start
 
+Autocomplete.sh works with both **Bash** and **Zsh**. The install script
+automatically detects your shell and downloads the appropriate
+`autocomplete.sh` or `autocomplete.zsh` file.
+
 ```bash
 wget -qO- https://autocomplete.sh/install.sh | bash
 ```
+
+For more details, see the
+[install script](docs/install.sh).
 
 ## Features
 
