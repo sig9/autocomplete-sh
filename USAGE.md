@@ -10,11 +10,17 @@
 
 2. **Install the Script**  
 
-   ```bash
-   autocomplete install
-   ```  
+```bash
+autocomplete install
+```
 
-   *This adds the necessary lines to your ~/.bashrc and sets up the environment.*
+Autocomplete.sh relies on `jq`:
+
+- **Ubuntu/Debian:** `sudo apt-get install jq`
+- **CentOS/RHEL:** `sudo yum install jq`
+- **macOS (Homebrew):** `brew install jq`
+
+*This adds the necessary lines to your ~/.bashrc and sets up the environment.*
 
 3. **Reload Your Shell**  
 
