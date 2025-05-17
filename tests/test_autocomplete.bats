@@ -1,8 +1,8 @@
 #!/usr/bin/env bats
 
 setup() {
-    # Install autocomplete.sh and run testing against the main branch
-    wget -qO- https://autocomplete.sh/install.sh | bash -s -- main
+    # Install autocomplete.sh from the repository in development mode
+    ./docs/install.sh dev
 
     # Source bashrc to make sure autocomplete is available in the current session
     source ~/.bashrc

@@ -8,13 +8,28 @@
 
    *Check that the help text is clear and lists all available commands.*
 
-2. **Install the Script**  
+2. **Install the Script**
 
-   ```bash
-   autocomplete install
-   ```  
+Make sure your `OPENAI_API_KEY` is exported as described in the
+[Quick Start note](README.md#quick-start).
 
-   *This adds the necessary lines to your ~/.bashrc and sets up the environment.*
+
+*This adds the necessary lines to your ~/.bashrc and sets up the environment.*
+
+```bash
+autocomplete install
+```
+
+
+   
+Autocomplete.sh relies on `jq`:
+
+- **Ubuntu/Debian:** `sudo apt-get install jq`
+- **CentOS/RHEL:** `sudo yum install jq`
+- **macOS (Homebrew):** `brew install jq`
+
+*This adds the necessary lines to your ~/.bashrc and sets up the environment.*
+
 
 3. **Reload Your Shell**  
 
